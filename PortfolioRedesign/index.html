@@ -3,73 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Base</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
-    <link
-      href="/your-path-to-fontawesome/css/fontawesome.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
   </head>
   <body>
-    <div class="header">
-      <div class="bgArtefact_1">
-        <img src="img/bgArtefact_1.png" alt="bg_artefact_1" />
-      </div>
-
-      <!-- Nav Bar-->
-      <div class="nav">
-        <div class="logo">
-          <h1>AndreiSandu.net</h1>
+    <!--Header-->
+    <header>
+      <div class="nav-bar">
+        <div class="logo-container">
+          <img src="img/andreisandulogo-alb.png" alt="logo" />
         </div>
 
-        <ul class="menuItems">
-          <li><a href="">Home</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Blog</a></li>
-        </ul>
-      </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="">Portfolio</a></li>
+            <li><a class="nav-link" href="">Contact</a></li>
+          </ul>
+        </nav>
 
-      <div class="headerContent">
-        <h2>Hello, I am</h2>
-        <h1>
-          Andrei <br />
-          Sandu
-        </h1>
-        <h3>
-          A young <span>UI / UX</span> designer with crazy for mobile & web
-          development.
-        </h3>
-
-        <h3 class="h3FindMe">Find Me on</h3>
-        <div class="social">
-          <a href=""><i class="fab fa-linkedin"></i></a>
-          <a href=""><i class="fab fa-pinterest-square"></i></a>
-          <a href=""><i class="fab fa-facebook-square"></i></a>
-          <a href=""><i class="fab fa-github-square"></i></a>
-        </div>
-
-        <div class="buttons">
-            <button type="button" class="hire_btn">Hire me</button>
-            <button type="button" class="port_btn">Portfolio</button>
+        <div class="blog-link">
+          <a class="nav-link" href="">Blog</a>
         </div>
       </div>
 
-      <div class="bgArtefact_2">
-        <img src="img/bgArtefact_2.png" alt="bg_artefact_2" />
-      </div>
+      <!--Content-->
 
-      <div class="bgArtefact_3">
-        <img src="img/bgArtefact_3.png" alt="left_bg_circle" />
-      </div>
-    </div>
-    <div class="content"></div>
-    <div class="footer"></div>
+      <section class="presentation">
+        <div class="introduction">
+          <div class="intro-text">
+            <h2>Hello, I am</h2>
+            <h1>
+              Andrei <br />
+              Sandu
+            </h1>
+            <p>
+              A young <span>UI/UX</span> designer with crazy for mobile & web
+              design.
+            </p>
+          </div>
+          <div class="cta">
+            <button class="cta-select">Portfolio</button>
+            <button class="cta-add">Hire Me</button>
+          </div>
+        </div>
+        <div class="cover">
+          <img src="./img/desk-undraw.png" alt="desk" />
+        </div>
+      </section>
 
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+      <!--Design assets-->
+      <div class="big-circle">
+        <img src="img/big-circle.png" alt="big-circle" />
+      </div>
+      <img class="circle-2" src="img/medium-circle.png" alt="medium-circle" />
+      <img class="circle-3" src="img/small-circle.png" alt="small-circle" />
+    </header>
+
+    <!-- Content -->
+    <section class="about">
+      <div class="wrap">
+        <div class="introduction">
+          <div class="intro-text">
+            <h2 id="about">About me <span></span></h2>
+            <p>
+              I am relatively new to the programming world but I got hooked
+              pretty fast and I like to learn the best techniques and practices
+              for every project I work on. I am a family man and a programmer
+              and I can say I have it all.
+            </p>
+          </div>
+
+          <div class="cta">
+            <button class="cta-download">Download</button>
+          </div>
+        </div>
+        <div class="cover">
+          <img src="./img/about-img.jpg" alt="desk" />
+        </div>
+      </div>
+      <img class="circle-img" src="img/big-circle.png" alt="circle" />
+    </section>
+
+    <section class="portfolio">
+      <div class="wrap">
+        <div class="port-header">
+          <h1 class="title">Portfolio <span></span></h1>          
+        </div>
+        <div class="port-wrap">
+          <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+        <div class="main" id="main">
+
+        </div>
+          
+        </div>
+      </div>
+    </section>
+    <script
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+>
+</script>
+<link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
   </body>
 </html>

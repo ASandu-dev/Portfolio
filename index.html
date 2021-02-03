@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="img/andreisandulogo-alb.png" alt="logo" />
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
+          <li><a href="">About</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contact</a></li>
+          <li class="blog-link"><a href="">Blog</a></li>
+        </ul>
+      </nav> 
+
+      <div class="container">
+        <div class="present">
+          <h2>Hello, I am</h2>
+          <h1>
+            Andrei <br />
+            Sandu
+          </h1>
+          <p>
+            A young <span>UI/UX</span> designer with crazy for mobile & web
+            design.
+          </p>
+
+          <div class="cta">
+            <a class="cta-portfolio" href="#portfolio">Portfolio</a>
+            <a class="cta-hire" href="#contact">Hire Me</a>
+          </div>
+        </div>
+        <div class="present-img">
+          <img src="./img/desk-undraw.png" alt="desk" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="wrap">
+          <div class="introduction">
+            <div class="intro-text">
+              <h2>About me <span></span></h2>
+              <p>
+                I am relatively new to the programming world but I got hooked
+                pretty fast and I like to learn the best techniques and
+                practices for every project I work on. I am a family man and a
+                programmer and I can say I have it all.
+              </p>
+            </div>
+
+            <div class="cta">
+              <a
+                href="https://drive.google.com/file/d/1DWYwnec_nHCpli2BwHH2QqwjcJQQmWKk/view?usp=sharing"
+                target="_blank"
+                class="cta-download"
+                >Download C.V.</a
+              >
+            </div>
+          </div>
+          <div class="cover">
+            <img src="./img/about-img.jpg" alt="desk" />
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="wrap">
+          <div class="intro-text">
+            <h2><span></span>Portfolio<span></span></h2>            
+          </div>
+          <div class="port-wrap">
+            <h1>Commit calendar</h1>
+            <div class="calendar">
+              <!-- Loading stuff -->
+              You must be offline. Check your internet connection!
+            </div>
+    
+            <div class="main">
+              <h1>Current Projects</h1>
+              <div class="card-holder" id="card-holder">
+                <!--Loading projects-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+
+        <div class="intro-text">
+          <h2><span></span>Contact<span></span></h2>            
+        </div>
+        <div class="head-section">
+          <h1>Get news about my recent projects</h1>
+          <h2>Reach me at <a href="mailto:contact@andreisandu.net">contact@andreisandu.net</a></h2>
+        </div>
+        <div class="form-box">
+          
+          <form class="contact-form">
+            <h1>If you want news from me...</h1>
+            <input class="name" type="text" id="name" name="name" placeholder="Your name ..">
+            <input class="email" type="text" id="email" name="email" placeholder="Your email..">
+  
+            <button type="submit" id="submit">Submit</button>
+  
+          </form>
+  
+          <div id="snackbar">E-mail saved..</div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h1>by AndreiSandu</h1>
+    </footer>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+  
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js">
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+    <script type="module" src="/firebase-config.js"></script>
+    <script type="module">
+      // Initialize Firebase
+    import {firebaseConfig} from '/firebase-config.js';  
+  </script>
+    <!--Github Calendar-->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  
+  </body>
+</html>

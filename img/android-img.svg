@@ -1,0 +1,18 @@
+<svg id="android-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <filter id="Icon_awesome-android" x="119.112" y="97.204" width="270.177" height="313.593" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Rectangle_80" data-name="Rectangle 80" fill="#8fcbe6" stroke="#707070" stroke-width="1">
+    <rect width="500" height="500" rx="40" stroke="none"/>
+    <rect x="0.5" y="0.5" width="499" height="499" rx="39.5" fill="none"/>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-android)">
+    <path id="Icon_awesome-android-2" data-name="Icon awesome-android" d="M41.427,119.619V198.38a18.637,18.637,0,0,1-18.7,18.84c-10.406,0-20.472-8.434-20.472-18.84V119.619c0-10.27,10.066-18.7,20.472-18.7A18.781,18.781,0,0,1,41.427,119.619ZM48.772,226.4A20.087,20.087,0,0,0,68.9,246.534H82.439l.2,41.557c0,25.1,37.544,24.893,37.544,0V246.534h25.3v41.557c0,24.961,37.748,25.029,37.748,0V246.534h13.739a20.058,20.058,0,0,0,20-20.132V104.383H48.772V226.4ZM217.449,97.786H48.024c0-29.11,17.412-54.412,43.257-67.607L78.291,6.17c-1.9-3.333,2.925-5.441,4.557-2.585L96.042,27.8a91.892,91.892,0,0,1,73.66,0L182.829,3.653c1.7-2.925,6.461-.748,4.557,2.585L174.4,30.179c25.642,13.195,43.053,38.5,43.053,67.607Zm-116.1-37.748A7.14,7.14,0,0,0,94.206,52.9a7.145,7.145,0,0,0,0,14.283A7.14,7.14,0,0,0,101.348,60.038Zm77.129,0a7.04,7.04,0,1,0-6.938,7.142A7.1,7.1,0,0,0,178.476,60.038Zm64.478,40.877a18.65,18.65,0,0,0-18.7,18.7V198.38a18.766,18.766,0,0,0,18.7,18.84c10.474,0,20.472-8.434,20.472-18.84V119.619C263.427,109.144,253.361,100.915,242.954,100.915Z" transform="translate(117.36 95.46)" fill="#23a515"/>
+  </g>
+</svg>

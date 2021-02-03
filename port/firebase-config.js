@@ -12,5 +12,5 @@ var firebaseConfig = {
 };
 function init(){
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+firebase.analytics(); 
 }

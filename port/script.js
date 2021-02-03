@@ -83,7 +83,7 @@ import {
         if (repo.language == "Java") {
           img.src = "/img/android-img.svg";
         } else {
-          img.src = "/img/web-img.svg";
+          img.src = "/img/web-img.svg"; 
         }
   
         image.appendChild(img);
